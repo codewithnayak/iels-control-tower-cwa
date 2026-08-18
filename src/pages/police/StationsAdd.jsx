@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MainLayout from "../../../layouts/MainLayout";
+import MainLayout from "../../layouts/MainLayout";
 
 export default function StationsAdd() {
   const [form, setForm] = useState({ name: "", address: "" });

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import stationsData from "../../../data/stations.json";
-import MainLayout from "../../../layouts/MainLayout";
+import stationsData from "../../data/stations.json";
+import MainLayout from "../../layouts/MainLayout";
 
 export default function StationsEdit() {
   const { id } = useParams();

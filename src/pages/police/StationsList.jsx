@@ -1,6 +1,6 @@
 import { useState } from "react";
-import stationsData from "../../../data/stations.json";
-import MainLayout from "../../../layouts/MainLayout";
+import stationsData from "../../data/stations.json";
+import MainLayout from "../../layouts/MainLayout";
 
 export default function StationsList() {
   const [filter, setFilter] = useState("");

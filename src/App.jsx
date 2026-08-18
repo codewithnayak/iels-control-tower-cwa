@@ -12,9 +12,9 @@ import RolesList from "./pages/identity/roles/RolesList";
 import RolesAdd from "./pages/identity/roles/RolesAdd";
 import RolesEdit from "./pages/identity/roles/RolesEdit";
 
-import StationsList from "./pages/identity/police/StationsList";
-import StationsAdd from "./pages/identity/police/StationsAdd";
-import StationsEdit from "./pages/identity/police/StationsEdit";
+import StationsList from "./pages/police/StationsList";
+import StationsAdd from "./pages/police/StationsAdd";
+import StationsEdit from "./pages/police/StationsEdit";
 
 import PermissionsList from "./pages/identity/permissions/PermissionsList";
 import PermissionsAdd from "./pages/identity/permissions/PermissionsAdd";
