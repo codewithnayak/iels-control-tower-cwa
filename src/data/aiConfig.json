@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Default Model",
+    "value": "gpt-4o-mini",
+    "description": "Primary model used for AI assistance"
+  },
+  {
+    "id": 2,
+    "name": "Temperature",
+    "value": "0.7",
+    "description": "Controls randomness of AI responses"
+  },
+  {
+    "id": 3,
+    "name": "Max Tokens",
+    "value": "2048",
+    "description": "Maximum output length for AI responses"
+  },
+  {
+    "id": 4,
+    "name": "Enable Logging",
+    "value": "true",
+    "description": "Whether AI interactions should be logged"
+  }
+]

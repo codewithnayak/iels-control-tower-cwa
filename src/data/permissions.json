@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "case:view",
+    "description": "Allows viewing case details"
+  },
+  {
+    "id": 2,
+    "name": "case:edit",
+    "description": "Allows editing case information"
+  },
+  {
+    "id": 3,
+    "name": "evidence:upload",
+    "description": "Allows uploading evidence"
+  },
+  {
+    "id": 4,
+    "name": "court:schedule",
+    "description": "Allows scheduling court hearings"
+  },
+  {
+    "id": 5,
+    "name": "ai:assist",
+    "description": "Allows using AI assistant features"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "2026-08-20",
+    "time": "10:00",
+    "courtroomId": 1,
+    "judgeId": 1
+  },
+  {
+    "id": 2,
+    "date": "2026-08-21",
+    "time": "14:00",
+    "courtroomId": 2,
+    "judgeId": 2
+  },
+  {
+    "id": 3,
+    "date": "2026-08-22",
+    "time": "09:30",
+    "courtroomId": 3,
+    "judgeId": 3
+  }
+]

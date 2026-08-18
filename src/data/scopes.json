@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "case:read",
+    "description": "Allows reading case details"
+  },
+  {
+    "id": 2,
+    "name": "case:write",
+    "description": "Allows creating and updating case information"
+  },
+  {
+    "id": 3,
+    "name": "evidence:upload",
+    "description": "Allows uploading evidence files and metadata"
+  },
+  {
+    "id": 4,
+    "name": "court:schedule",
+    "description": "Allows scheduling hearings and court events"
+  },
+  {
+    "id": 5,
+    "name": "ai:assist",
+    "description": "Allows using AI assistant features in case workflow"
+  }
+]

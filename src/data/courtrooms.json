@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Courtroom A",
+    "location": "Rohini Court Complex",
+    "capacity": 40
+  },
+  {
+    "id": 2,
+    "name": "Courtroom B",
+    "location": "Patiala House Court",
+    "capacity": 35
+  },
+  {
+    "id": 3,
+    "name": "Courtroom C",
+    "location": "Dwarka District Court",
+    "capacity": 50
+  }
+]

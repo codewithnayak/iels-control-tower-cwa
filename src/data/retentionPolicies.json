@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Keep for 1 year",
+    "duration": "1 year",
+    "description": "Evidence retained for one year before archival or deletion"
+  },
+  {
+    "id": 2,
+    "name": "Keep for 5 years",
+    "duration": "5 years",
+    "description": "Evidence retained for five years before archival or deletion"
+  },
+  {
+    "id": 3,
+    "name": "Keep indefinitely",
+    "duration": "Indefinite",
+    "description": "Evidence retained permanently unless manually removed"
+  }
+]

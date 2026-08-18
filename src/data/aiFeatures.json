@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Summarization",
+    "enabled": true,
+    "description": "Allows AI to summarize case files, FIRs, and evidence notes"
+  },
+  {
+    "id": 2,
+    "name": "Case Insights",
+    "enabled": true,
+    "description": "AI provides insights and patterns from case data"
+  },
+  {
+    "id": 3,
+    "name": "Evidence Tagging",
+    "enabled": false,
+    "description": "AI auto-tags uploaded evidence with relevant metadata"
+  },
+  {
+    "id": 4,
+    "name": "Court Scheduling Assist",
+    "enabled": true,
+    "description": "AI suggests optimal hearing slots based on judge availability"
+  },
+  {
+    "id": 5,
+    "name": "Risk Assessment",
+    "enabled": false,
+    "description": "AI predicts risk levels for suspects based on case history"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Judge Arvind Sharma",
+    "courtroomId": 1,
+    "experience": 12
+  },
+  {
+    "id": 2,
+    "name": "Judge Meera Kapoor",
+    "courtroomId": 2,
+    "experience": 8
+  },
+  {
+    "id": 3,
+    "name": "Judge Rohan Verma",
+    "courtroomId": 3,
+    "experience": 15
+  }
+]

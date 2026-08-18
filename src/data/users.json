@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "John Carter",
+    "email": "john.carter@iels.gov",
+    "stationId": 101,
+    "roles": ["officer"]
+  },
+  {
+    "id": 2,
+    "name": "Sarah Khan",
+    "email": "sarah.khan@iels.gov",
+    "stationId": 102,
+    "roles": ["admin", "supervisor"]
+  }
+]
