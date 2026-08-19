@@ -47,13 +47,13 @@ import RetentionPoliciesAdd from "./pages/evidence/retention/RetentionPoliciesAd
 import RetentionPoliciesEdit from "./pages/evidence/retention/RetentionPoliciesEdit";
 
 // // AI
-import AiConfigList from "./pages/ai/config/AiConfigList";
-import AiConfigAdd from "./pages/ai/config/AiConfigAdd";
-import AiConfigEdit from "./pages/ai/config/AiConfigEdit";
+import AiConfigList from "./pages/ai/config/AIConfigList";
+import AiConfigAdd from "./pages/ai/config/AIConfigAdd";
+import AiConfigEdit from "./pages/ai/config/AIConfigEdit";
 
-import AiFeaturesList from "./pages/ai/features/AiFeaturesList";
-import AiFeaturesAdd from "./pages/ai/features/AiFeaturesAdd";
-import AiFeaturesEdit from "./pages/ai/features/AiFeaturesEdit";
+import AiFeaturesList from "./pages/ai/features/AIFeaturesList";
+import AiFeaturesAdd from "./pages/ai/features/AIFeaturesAdd";
+import AiFeaturesEdit from "./pages/ai/features/AIFeaturesEdit";
 
 export default function App() {
   return (
