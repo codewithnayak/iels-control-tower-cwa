@@ -57,69 +57,64 @@ import AiFeaturesEdit from "./pages/ai/features/AiFeaturesEdit";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* Dashboard */}
-        <Route path="/" element={<Dashboard />} />
+    <Routes>
+      {/* Dashboard */}
+      <Route path="/" element={<Dashboard />} />
 
-        {/* Identity */}
-        <Route path="/users" element={<UsersList />} />
-        <Route path="/users/add" element={<UsersAdd />} />
-        <Route path="/users/edit/:id" element={<UsersEdit />} />
-        <Route path="/roles" element={<RolesList />} />
-        <Route path="/roles/add" element={<RolesAdd />} />
-        <Route path="/roles/edit/:id" element={<RolesEdit />} />
+      {/* Identity */}
+      <Route path="/users" element={<UsersList />} />
+      <Route path="/users/add" element={<UsersAdd />} />
+      <Route path="/users/edit/:id" element={<UsersEdit />} />
+      <Route path="/roles" element={<RolesList />} />
+      <Route path="/roles/add" element={<RolesAdd />} />
+      <Route path="/roles/edit/:id" element={<RolesEdit />} />
 
-        <Route path="/stations" element={<StationsList />} />
-        <Route path="/stations/add" element={<StationsAdd />} />
-        <Route path="/stations/edit/:id" element={<StationsEdit />} />
-        <Route path="/scopes" element={<ScopesList />} />
-        <Route path="/scopes/add" element={<ScopesAdd />} />
-        <Route path="/scopes/edit/:id" element={<ScopesEdit />} />
-        <Route path="/permissions" element={<PermissionsList />} />
-        <Route path="/permissions/add" element={<PermissionsAdd />} />
-        <Route path="/permissions/edit/:id" element={<PermissionsEdit />} />
-        <Route path="/courtrooms" element={<CourtroomsList />} />
-        <Route path="/courtrooms/add" element={<CourtroomsAdd />} />
-        <Route path="/courtrooms/edit/:id" element={<CourtroomsEdit />} />
+      <Route path="/stations" element={<StationsList />} />
+      <Route path="/stations/add" element={<StationsAdd />} />
+      <Route path="/stations/edit/:id" element={<StationsEdit />} />
+      <Route path="/scopes" element={<ScopesList />} />
+      <Route path="/scopes/add" element={<ScopesAdd />} />
+      <Route path="/scopes/edit/:id" element={<ScopesEdit />} />
+      <Route path="/permissions" element={<PermissionsList />} />
+      <Route path="/permissions/add" element={<PermissionsAdd />} />
+      <Route path="/permissions/edit/:id" element={<PermissionsEdit />} />
+      <Route path="/courtrooms" element={<CourtroomsList />} />
+      <Route path="/courtrooms/add" element={<CourtroomsAdd />} />
+      <Route path="/courtrooms/edit/:id" element={<CourtroomsEdit />} />
 
-        <Route path="/judges" element={<JudgesList />} />
-        <Route path="/judges/add" element={<JudgesAdd />} />
-        <Route path="/judges/edit/:id" element={<JudgesEdit />} />
+      <Route path="/judges" element={<JudgesList />} />
+      <Route path="/judges/add" element={<JudgesAdd />} />
+      <Route path="/judges/edit/:id" element={<JudgesEdit />} />
 
-        <Route path="/hearings" element={<HearingSlotsList />} />
-        <Route path="/hearings/add" element={<HearingSlotsAdd />} />
-        <Route path="/hearings/edit/:id" element={<HearingSlotsEdit />} />
-        <Route
-          path="/evidence-categories"
-          element={<EvidenceCategoriesList />}
-        />
-        <Route
-          path="/evidence-categories/add"
-          element={<EvidenceCategoriesAdd />}
-        />
-        <Route
-          path="/evidence-categories/edit/:id"
-          element={<EvidenceCategoriesEdit />}
-        />
+      <Route path="/hearings" element={<HearingSlotsList />} />
+      <Route path="/hearings/add" element={<HearingSlotsAdd />} />
+      <Route path="/hearings/edit/:id" element={<HearingSlotsEdit />} />
+      <Route path="/evidence-categories" element={<EvidenceCategoriesList />} />
+      <Route
+        path="/evidence-categories/add"
+        element={<EvidenceCategoriesAdd />}
+      />
+      <Route
+        path="/evidence-categories/edit/:id"
+        element={<EvidenceCategoriesEdit />}
+      />
 
-        <Route path="/retention-policies" element={<RetentionPoliciesList />} />
-        <Route
-          path="/retention-policies/add"
-          element={<RetentionPoliciesAdd />}
-        />
-        <Route
-          path="/retention-policies/edit/:id"
-          element={<RetentionPoliciesEdit />}
-        />
-        <Route path="/ai-config" element={<AiConfigList />} />
-        <Route path="/ai-config/add" element={<AiConfigAdd />} />
-        <Route path="/ai-config/edit/:id" element={<AiConfigEdit />} />
+      <Route path="/retention-policies" element={<RetentionPoliciesList />} />
+      <Route
+        path="/retention-policies/add"
+        element={<RetentionPoliciesAdd />}
+      />
+      <Route
+        path="/retention-policies/edit/:id"
+        element={<RetentionPoliciesEdit />}
+      />
+      <Route path="/ai-config" element={<AiConfigList />} />
+      <Route path="/ai-config/add" element={<AiConfigAdd />} />
+      <Route path="/ai-config/edit/:id" element={<AiConfigEdit />} />
 
-        <Route path="/ai-features" element={<AiFeaturesList />} />
-        <Route path="/ai-features/add" element={<AiFeaturesAdd />} />
-        <Route path="/ai-features/edit/:id" element={<AiFeaturesEdit />} />
-      </Routes>
-    </BrowserRouter>
+      <Route path="/ai-features" element={<AiFeaturesList />} />
+      <Route path="/ai-features/add" element={<AiFeaturesAdd />} />
+      <Route path="/ai-features/edit/:id" element={<AiFeaturesEdit />} />
+    </Routes>
   );
 }

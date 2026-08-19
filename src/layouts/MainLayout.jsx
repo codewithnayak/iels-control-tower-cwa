@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function MainLayout({ children }) {
   const [menuOpen, setMenuOpen] = useState(true);
@@ -36,63 +37,63 @@ export default function MainLayout({ children }) {
           `}
         >
           <nav className="flex flex-col gap-2 text-sm">
-            <a href="/" className="p-2 rounded hover:bg-gray-100">
+            <Link to="/" className="p-2 rounded hover:bg-gray-100">
               Dashboard
-            </a>
+            </Link>
 
             <h2 className="mt-4 mb-1 text-xs uppercase text-gray-500">
               Identity
             </h2>
-            <a href="/users" className="p-2 rounded hover:bg-gray-100">
+            <Link to="/users" className="p-2 rounded hover:bg-gray-100">
               Users
-            </a>
-            <a href="/roles" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/roles" className="p-2 rounded hover:bg-gray-100">
               Roles
-            </a>
-            <a href="/stations" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/stations" className="p-2 rounded hover:bg-gray-100">
               Stations
-            </a>
-            <a href="/permissions" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/permissions" className="p-2 rounded hover:bg-gray-100">
               Permissions
-            </a>
-            <a href="/scopes" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/scopes" className="p-2 rounded hover:bg-gray-100">
               Scopes
-            </a>
+            </Link>
 
             <h2 className="mt-4 mb-1 text-xs uppercase text-gray-500">Court</h2>
-            <a href="/courtrooms" className="p-2 rounded hover:bg-gray-100">
+            <Link to="/courtrooms" className="p-2 rounded hover:bg-gray-100">
               Courtrooms
-            </a>
-            <a href="/judges" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/judges" className="p-2 rounded hover:bg-gray-100">
               Judges
-            </a>
-            <a href="/hearings" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/hearings" className="p-2 rounded hover:bg-gray-100">
               Hearing Slots
-            </a>
+            </Link>
 
             <h2 className="mt-4 mb-1 text-xs uppercase text-gray-500">
               Evidence
             </h2>
-            <a
-              href="/evidence-categories"
+            <Link
+              to="/evidence-categories"
               className="p-2 rounded hover:bg-gray-100"
             >
               Evidence Categories
-            </a>
-            <a
-              href="/retention-policies"
+            </Link>
+            <Link
+              to="/retention-policies"
               className="p-2 rounded hover:bg-gray-100"
             >
               Retention Policies
-            </a>
+            </Link>
 
             <h2 className="mt-4 mb-1 text-xs uppercase text-gray-500">AI</h2>
-            <a href="/ai-config" className="p-2 rounded hover:bg-gray-100">
+            <Link to="/ai-config" className="p-2 rounded hover:bg-gray-100">
               AI Config
-            </a>
-            <a href="/ai-features" className="p-2 rounded hover:bg-gray-100">
+            </Link>
+            <Link to="/ai-features" className="p-2 rounded hover:bg-gray-100">
               AI Features
-            </a>
+            </Link>
           </nav>
         </aside>
 

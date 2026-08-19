@@ -1,6 +1,7 @@
 import { useState } from "react";
 import stationsData from "../../data/stations.json";
 import MainLayout from "../../layouts/MainLayout";
+import { Link } from "react-router-dom";
 
 export default function StationsList() {
   const [filter, setFilter] = useState("");
@@ -23,12 +24,12 @@ export default function StationsList() {
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
         />
-        <a
-          href="/stations/add"
+        <Link
+          to="/stations/add"
           className="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700"
         >
           Add Station
-        </a>
+        </Link>
       </div>
 
       <div className="bg-white rounded shadow overflow-hidden">
