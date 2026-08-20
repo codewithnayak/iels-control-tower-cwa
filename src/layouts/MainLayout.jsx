@@ -19,9 +19,7 @@ export default function MainLayout({ children }) {
           </div>
         </button>
 
-        <div className="text-xl font-semibold text-gray-700">
-          IELS Backoffice
-        </div>
+        <div className="text-xl font-semibold text-gray-700">Backoffice</div>
       </header>
 
       <div className="flex flex-1 overflow-hidden">
@@ -108,11 +106,6 @@ export default function MainLayout({ children }) {
         {/* Content */}
         <main className="flex-1 p-10 overflow-y-auto">{children}</main>
       </div>
-
-      {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 p-4 text-sm text-gray-600">
-        © 2026 — All Rights Reserved
-      </footer>
     </div>
   );
 }
